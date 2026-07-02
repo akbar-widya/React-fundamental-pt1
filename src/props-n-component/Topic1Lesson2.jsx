@@ -1,21 +1,21 @@
-import { useState } from "react"
+import { useState } from "react";
 
 // 3. Composition: pass the already-built element down instead
 export default function Topic1Lesson2() {
-    const [theme, setTheme] = useState("dark")
-    return (
+  const [theme, setTheme] = useState("dark");
+  return (
     <Page>
-        <Sidebar theme={theme} />
+      <Sidebar theme={theme} />
     </Page>
-    )
+  );
 }
 
 function Page({ children }) {
-    return <div>{children}</div>
+  return <div>{children}</div>;
 }
 
 function Sidebar({ theme }) {
-    return <button class={`btn-${theme}`}>Settings</button>
+  return <button class={`btn-${theme}`}>Settings</button>;
 }
 
 // 2. Problem because only parent can update them: Prop drilling
