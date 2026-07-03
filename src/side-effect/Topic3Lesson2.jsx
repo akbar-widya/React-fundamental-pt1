@@ -5,14 +5,14 @@ function WindowWidth() {
 
   useEffect(() => {
     function handleResize() {
-        setWidth(window.innerWidth);
+      setWidth(window.innerWidth);
     }
 
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
-  }, [])
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-  return <p>WIndow width: {width}</p>
+  return <p>WIndow width: {width}</p>;
 }
 
 export default function Topic3Lesson2() {

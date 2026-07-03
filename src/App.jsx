@@ -8,6 +8,7 @@ import Topic2Lesson3 from "./event-handling-n-controlled-form/Topic2Lesson3";
 import Topic3Lesson1 from "./side-effect/Topic3Lesson1";
 import Topic3Lesson2 from "./side-effect/Topic3Lesson2";
 import Topic3Lesson3 from "./side-effect/Topic3Lesson3";
+import Topic4Lesson1 from "./essential-hooks/Topic4Lesson1";
 
 const lessonRegistry = {
   1.1: { title: "Prop & component 1", component: Topic1Lesson1 },
@@ -19,6 +20,7 @@ const lessonRegistry = {
   3.1: { title: "Side effect 1", component: Topic3Lesson1 },
   3.2: { title: "Side effect 2", component: Topic3Lesson2 },
   3.3: { title: "Side effect 3", component: Topic3Lesson3 },
+  4.1: { title: "Essential hooks 1", component: Topic4Lesson1 },
 };
 
 function App() {
