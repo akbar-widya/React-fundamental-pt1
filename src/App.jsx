@@ -14,6 +14,7 @@ import Topic4Lesson3 from "./essential-hooks/Topic4Lesson3";
 import Topic4Lesson4 from "./essential-hooks/Topic4Lesson4";
 import Topic4Lesson5 from "./essential-hooks/Topic4Lesson5";
 import Topic5Lesson1 from "./context-api-n-usereducer/Topic5Lesson1";
+import Topic5Lesson2 from "./context-api-n-usereducer/Topic5Lesson2";
 
 const lessonRegistry = {
   1.1: { title: "Prop & component 1", component: Topic1Lesson1 },
@@ -31,6 +32,7 @@ const lessonRegistry = {
   4.4: { title: "Essential hooks 4", component: Topic4Lesson4 },
   4.5: { title: "Essential hooks 5", component: Topic4Lesson5 },
   5.1: { title: "Context & Reducer 1", component: Topic5Lesson1 },
+  5.2: { title: "Context & Reducer 2", component: Topic5Lesson2 },
 };
 
 function App() {
