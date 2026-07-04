@@ -12,6 +12,7 @@ import Topic4Lesson1 from "./essential-hooks/Topic4Lesson1";
 import Topic4Lesson2 from "./essential-hooks/Topic4Lesson2";
 import Topic4Lesson3 from "./essential-hooks/Topic4Lesson3";
 import Topic4Lesson4 from "./essential-hooks/Topic4Lesson4";
+import Topic4Lesson5 from "./essential-hooks/Topic4Lesson5";
 
 const lessonRegistry = {
   1.1: { title: "Prop & component 1", component: Topic1Lesson1 },
@@ -27,6 +28,7 @@ const lessonRegistry = {
   4.2: { title: "Essential hooks 2", component: Topic4Lesson2 },
   4.3: { title: "Essential hooks 3", component: Topic4Lesson3 },
   4.4: { title: "Essential hooks 4", component: Topic4Lesson4 },
+  4.5: { title: "Essential hooks 5", component: Topic4Lesson5 },
 };
 
 function App() {
