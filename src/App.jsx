@@ -16,6 +16,7 @@ import Topic4Lesson5 from "./essential-hooks/Topic4Lesson5";
 import Topic5Lesson1 from "./context-api-n-usereducer/Topic5Lesson1";
 import Topic5Lesson2 from "./context-api-n-usereducer/Topic5Lesson2";
 import Topic5Lesson3 from "./context-api-n-usereducer/topic5Lesson3";
+import Topic6Lesson1 from "./custom-hook/Topic6Lesson1";
 
 const lessonRegistry = {
   1.1: { title: "Prop & component 1", component: Topic1Lesson1 },
@@ -35,6 +36,7 @@ const lessonRegistry = {
   5.1: { title: "Context & Reducer 1", component: Topic5Lesson1 },
   5.2: { title: "Context & Reducer 2", component: Topic5Lesson2 },
   5.3: { title: "Context & Reducer 3", component: Topic5Lesson3 },
+  6.1: { title: "Custom hook 1", component: Topic6Lesson1 },
 };
 
 function App() {
@@ -44,7 +46,7 @@ function App() {
 
   return (
     <div>
-      <ul class="grid-container">
+      <ul className="grid-container">
         {Object.entries(lessonRegistry).map(([id, data]) => (
           <li key={id}>
             <button style={{ width: "100%" }} onClick={() => setActiveId(id)}>{data.title}</button>

@@ -21,7 +21,7 @@ function Toolbar() {    // Toolbar has child name ThemedButton
 
 function ThemedButton() {
   const theme = useContext(ThemeContext);
-  return <button class={`btn-${theme}`}>Click me</button>;
+  return <button className={`btn-${theme}`}>Click me</button>;
 }
 
 export default function Topic5Lesson1() {

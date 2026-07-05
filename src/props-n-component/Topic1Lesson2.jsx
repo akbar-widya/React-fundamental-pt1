@@ -15,7 +15,7 @@ function Page({ children }) {
 }
 
 function Sidebar({ theme }) {
-  return <button class={`btn-${theme}`}>Settings</button>;
+  return <button className={`btn-${theme}`}>Settings</button>;
 }
 
 // 2. Problem because only parent can update them: Prop drilling
@@ -29,7 +29,7 @@ function Sidebar({ theme }) {
 // }
 
 // function Sidebar({ theme }) {    // only button who actually need the prop
-//     return <button class={`btn-${theme}`}>Settings</button>
+//     return <button className={`btn-${theme}`}>Settings</button>
 // }
 
 // 1. Prop as children
